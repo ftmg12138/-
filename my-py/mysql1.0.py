@@ -140,7 +140,7 @@ op = input("input:")
 while( op != '0' ):
     if op == '1':
         a=input("input table name:")
-        s=input("input style:")
+        s=input("input style:")#style 1是name和age两列的表，2是name,subject,score的表
         my_create(a,s)
     elif op=='2':
         a = input("input table name:")
